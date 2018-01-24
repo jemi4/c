@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main()
+#include<conio.h>
+void  main()
 {
     int number, originalNumber, remainder, result = 0;
     printf("Enter a three digit integer: ");
@@ -16,5 +17,5 @@ int main()
         printf("%d is an Armstrong number.",number);
     else
         printf("%d is not an Armstrong number.",number);
-        return 0;
+        getch();
 }

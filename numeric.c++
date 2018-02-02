@@ -25,5 +25,5 @@ void main()
 		cout<<"It is numeric string"<<endl;
 	else
 		cout<<"It is not numeric string"<<endl;	
-    getch();
+    return(0);
 }

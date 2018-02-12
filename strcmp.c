@@ -5,11 +5,11 @@ void main()
 {
    char p[50], j[50];
    printf("Enter a string\n");
-   gets(a);
+   gets(p);
    printf("Enter a string\n");
-   gets(b);
+   gets(j);
  
-   if (strcmp(a>b))
+   if (strcmp(p>j))
       printf("string p is greater");
    else
       printf("string j is greater");

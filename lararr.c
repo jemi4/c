@@ -20,6 +20,6 @@ void main()
     
     printf("The largest element is %d",large);
     printf("\nThe smallest element is %d",small);
-    return 0;
+   getch();
 }
  

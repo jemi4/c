@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include<conio.h>
 #include<string.h>
-int main(void) {
+void main()
+{
 	char a[100];
 	int alphabet=0,number=0;
+	clrscr()
 	scanf("%s",a);
 	int i,m;
 	m=strlen(a);
@@ -23,5 +26,5 @@ int main(void) {
 	}
 	else
 		printf("no");
-		return 0;
+		getch();
 }

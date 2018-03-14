@@ -2,19 +2,18 @@
 #include<conio.h>
 int main()
 {
-int j,k,a[15],i;
-scanf("%d%d",&j,&k);
+int p,k,a[15],i;
+scanf("%d%d",&p,&k);
 for(i=0;i<s;i++)
 {
 	scanf("%d",&a[i]);
 }
-for(i=0;i<j;i++)
+for(i=0;i<p;i++)
 {
 	if(a[i]==k)
 	{
 		printf("%d",a[i]);
 	}
 }
-return0;
 getch();
 }

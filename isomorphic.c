@@ -6,14 +6,14 @@ void main()
 	char in1[100],in2[100];
   clrscr();
 	scanf("%s %s",in1,in2);
-	int m,n,i,j,u,v,w,x,y,z,flag=0;
-	m=strlen(in1);
-	n=strlen(in2);
-	if(m==n)
+	int p,k,i,j,u,v,w,x,y,z,flag=0;
+	p=strlen(in1);
+	k=strlen(in2);
+	if(p==k)
 	{
-	for(i=0;i<m;i++)
+	for(i=0;i<p;i++)
 	{
-		for(j=i+1;j<m;j++)
+		for(j=i+1;j<p;j++)
 		{
 			u=in1[i];
 			v=in1[j];
